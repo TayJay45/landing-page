@@ -6,68 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <div class="header-logo">Header Logo</div>
       <nav>
+        <div class="header-logo">Header Logo</div>
         <ul>
           <li><a href="#">Link1</a></li>
           <li><a href="#">Link2</a></li>
           <li><a href="#">Link3</a></li>
         </ul>
       </nav>
-      <div class="hero">
-        <h3>This Website is awesome</h3>
-        <p>Subtext</p>
-        <button>Sign Up</button>
-      </div>
-      <div class="img">
-        <img src="https://www.fillmurray.com/400/200" alt="" />
+      <div class="hero-img-container">
+        <div class="hero">
+          <h3>This Website is awesome</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam iste
+            qui rerum dolore iusto eligendi saepe beatae distinctio architecto!
+            Ad veritatis sunt aspernatur ipsa cupiditate alias recusandae
+            sapiente! Corporis, iusto.
+          </p>
+          <button>Sign Up</button>
+        </div>
+        <div class="img">
+          <img src="https://www.fillmurray.com/400/200" alt="" />
+        </div>
       </div>
     </header>
-
-    <h3>Some Random Information</h3>
-    <div class="card-section">
-      <div class="card-container">
+    <h3 class="card-header">Some random information</h3>
+    <div class="cards">
+      <div class="whole-card">
         <div class="card"></div>
-        <Subtext>this is some subtext under an illustration or img</Subtext>
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+          voluptatibus voluptatum, odit adipisci quod dolor in voluptate
+          corporis beatae commodi cupiditate, a aut deleniti recusandae
+          blanditiis. Ratione magni qui doloremque!
+        </div>
       </div>
-      <div class="card-container">
+      <div class="whole-card">
         <div class="card"></div>
-        <Subtext>this is some subtext under an illustration or img</Subtext>
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+          voluptatibus voluptatum, odit adipisci quod dolor in voluptate
+          corporis beatae commodi cupiditate, a aut deleniti recusandae
+          blanditiis. Ratione magni qui doloremque!
+        </div>
       </div>
-      <div class="card-container">
+      <div class="whole-card">
         <div class="card"></div>
-        <Subtext>this is some subtext under an illustration or img</Subtext>
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+          voluptatibus voluptatum, odit adipisci quod dolor in voluptate
+          corporis beatae commodi cupiditate, a aut deleniti recusandae
+          blanditiis. Ratione magni qui doloremque!
+        </div>
       </div>
-      <div class="card-container">
+      <div class="whole-card">
         <div class="card"></div>
-        <Subtext>this is some subtext under an illustration or img</Subtext>
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+          voluptatibus voluptatum, odit adipisci quod dolor in voluptate
+          corporis beatae commodi cupiditate, a aut deleniti recusandae
+          blanditiis. Ratione magni qui doloremque!
+        </div>
       </div>
     </div>
-    <section class="quote-container">
-      <figure class="quote">
-        <blockquote>
-          But web browsers aren’t like web servers. If your back-end code is
-          getting so big that it’s starting to run noticably slowly, you can
-          throw more computing power at it by scaling up your server. That’s not
-          an option on the front-end where you don’t really have one run-time
-          environment—your end users have their own run-time environment with
-          its own constraints around computing power and network connectivity.
-        </blockquote>
-        <figcaption>-Jeremy Keith, <cite>Mental models</cite></figcaption>
-      </figure>
-    </section>
+    <figure class="quote-container">
+      <blockquote class="quote">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores
+        commodi facere quas dolore ullam recusandae. Aut culpa quisquam error
+        aliquam odit ipsam ducimus praesentium eveniet perspiciatis, ad natus
+        recusandae.
+      </blockquote>
+      <figcaption>&mdash; This one dude</figcaption>
+    </figure>
+
     <div class="call-container">
-      <div>
+      <div class="text">
         <h3>Call go action! It's time</h3>
         <p>
           Sign up for our product by clickting that buttont right over there!
         </p>
-        <button>Sign Up!</button>
       </div>
+      <button class="call-btn">Sign Up!</button>
     </div>
-    <footer>Copyright (copyright symbol) The Odin Project</footer>
+    <footer>Copyright &copy; The Odin Project</footer>
   </body>
 </html>
